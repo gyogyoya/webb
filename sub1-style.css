@@ -1,0 +1,48 @@
+/* sub1 스타일 */
+
+
+/* 메인 배경 */
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url(images/sub1-bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+header h4{
+    font-size: medium;
+}
+
+
+/* 내비게이션 */
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #B9C280 !important;
+    list-style: circle;
+}
+
+
+
+/* 내비게이션 main 표시 */
+#sub1{
+    color: white;
+}
+
+#sub1.nav-link:hover{
+    color: #ffff !important;
+}
+
+div.dot{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
