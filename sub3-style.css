@@ -1,0 +1,126 @@
+/* sub3 스타일 */
+
+h1, h2, h3, h4, p{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+/* 메인 배경 */
+header{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(to top, rgba(173, 173, 173, 0.64), rgba(0, 0, 0, 0.42)), url(images/sub3-bg.png);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+header h4{
+    font-size: medium;
+}
+
+
+/* 내비게이션 */
+.navbar{
+    background-color: rgba(111, 97, 75, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #B9C280 !important;
+    list-style: circle;
+}
+
+
+
+/* 내비게이션 main 표시 */
+#sub1{
+    color: white;
+}
+
+#sub1.nav-link:hover{
+    color: #ffff !important;
+}
+
+div.dot{
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+/* 전체 버튼 */
+.btn-all{
+    background-color: #2A2B2C;
+    border: solid 1px #2A2B2C;
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: center;
+
+    /* 애니메이션 자연스럽게 */
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+.btn-all:hover{
+    transform: translateY(-10px);
+}
+
+
+/* 그 밖의 버튼 */
+.btn-sub{
+    background-color: #ffffff;
+    border: solid 1px #2A2B2C;
+    border-radius: 50px;
+    color: #2A2B2C;
+    padding: 50px 0px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: center;
+
+    /* 애니메이션 자연스럽게 */
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+.btn-sub:hover{
+    transform: translateY(-10px);
+}
+
+
+/* 작성된 글 */
+section .card{
+    border-radius: 0px;
+    border: solid 1px #B0B1B2;
+}
+
+section .card p{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 30px
+}
+
+section .card-right{
+    justify-content: end;
+}
+
+#text-b{
+    padding-bottom: 50px;
+}
+
+
+/* 푸터 */
+footer{
+    background-color: #B0B1B2;
+}
